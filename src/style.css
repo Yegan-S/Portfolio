@@ -1,19 +1,52 @@
-/* font-family: 'Playfair Display',
-serif;
-font-family: 'Poppins',
-sans-serif;
- */
+body{
+        background:#222831 ;
+}
 
 h1{
-    color: red;
+    color: #9e7e44;
     text-transform: capitalize;
     font-family: 'Playfair Display',
             serif;
             font-weight: bold;
+            padding-top: 20px;
+}
+h2{
+        color: #2c2c2a;
 }
 p{
-font-family: 'Poppins',
+        font-family: 'Poppins',
         sans-serif;
         font-weight: normal;
-      
+        color: #a2c11c;
+        margin-top: 40px;
+        line-height: 1.5;     
+}
+
+.homepage{
+        background: #393e46;
+        margin-top: 20px;
+        
+}
+
+
+@media (max-width: 700px){
+       
+ .homepage img{
+  width: 200px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+ 
+ } 
+ 
+ .homepage p{
+margin-top: 20px;
+ }
+
+}
+@media (min-width: 1000px){
+        .homepage p{
+                
+                padding: 60px 20px;
+               
+        }
 }
