@@ -26,6 +26,26 @@ p{
         max-width: 30px;
         border-radius: 50%;
 }
+.navbar{
+        background-color: #222831;
+        color:#9e7e44 ;
+}
+.navbar-nav{
+color: #9e7e44;
+}
+.nav-link{
+color: #9e7e44;
+text-transform: capitalize;
+}
+
+.nav-link:hover{
+        color:#a2c11c ;
+        border-bottom: 1px solid #a2c11c ;
+}
+.navbar-toggler{
+        color: #9e7e44;
+}
+
 .homepage{
         background: #393e46;
         margin-top: 20px;
