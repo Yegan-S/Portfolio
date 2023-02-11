@@ -22,6 +22,10 @@ p{
         line-height: 1.5;     
 }
 
+.personal-img{
+        max-width: 30px;
+        border-radius: 50%;
+}
 .homepage{
         background: #393e46;
         margin-top: 20px;
@@ -32,7 +36,8 @@ p{
 @media (max-width: 700px){
        
  .homepage img{
-  width: 200px;
+width: 200px;
+border-radius: 50%;
   margin-top: 30px;
   margin-bottom: 20px;
  
