@@ -17,13 +17,22 @@ h2{
         margin-top: 10px;
         font-size:24px ;
 }
+h3{
+        color: #393e46;
+        font-size: 18px;
+        padding-top: 10px;
+       
+}
 p{
         font-family: 'Poppins',
         sans-serif;
         font-weight: normal;
         color: #a2c11c;
         margin-top: 30px;
-        line-height: 1.5;     
+        line-height: 1.5;   
+        padding: 20px;
+                font-size: 18px;
+                text-align: center;
 }
 
 .personal-img{
@@ -49,6 +58,8 @@ text-transform: capitalize;
 .navbar-toggler{
         color: #9e7e44;
 }
+
+
 
 .homepage{
         background: #393e46;
@@ -78,4 +89,36 @@ margin-top: 20px;
                 padding: 60px 20px;
                
         }
+}
+
+.about{
+        display: flex;
+        justify-content: space-evenly;
+
+       
+}
+.about p{
+        color: #9e7e44;
+        margin: 10px;
+background-color: #dbd8e3;
+        }
+
+.my-resume{
+                display: flex;
+                justify-content: center;
+                padding: 15px;
+        }
+.resume-link {
+        background:#dbd8e3;
+        color: #9e7e44;
+        text-decoration: none;
+        padding: 15px 20px;
+        border-radius: 4px;
+        text-transform: capitalize;
+        
+      
+        
+}
+.resume-link:hover{
+         color:#393e46;
 }
