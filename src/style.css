@@ -122,3 +122,39 @@ background-color: #dbd8e3;
 .resume-link:hover{
          color:#393e46;
 }
+.skill{
+        background-color: #393e46;
+}
+.skill-title{
+        color: #9e7e44;
+}
+.skill-item{
+        border: none;
+        border-radius: 4px;
+}
+.skill-icon{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:center;
+        background-color: #9e7e44;
+        border-radius: 10px;
+        margin-top: 20px;
+}
+
+.skill-icon  img {
+        color: #393e46;
+        width: 80px;
+}
+
+.skill-icon i{
+        margin-top: 60px;
+        color:#393e46 ;
+        font-size: 80px;
+}
+.skill-icon p{
+        margin-top: 8px;
+        margin-bottom: 40px;
+        font-size: 18px;
+        color: #393e46;
+}
