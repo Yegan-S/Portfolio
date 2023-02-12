@@ -142,10 +142,33 @@ background-color: #dbd8e3;
         margin-top: 20px;
 }
 
-.skill-icon  img {
+
+.vscode{
+        color:#393e46;
+        width: 80px;
+}
+
+.api{
+color: #393e46;
+        width: 90px;
+}
+.responsive {
+        color: #393e46;
+        width: 95px;
+}
+.seo{
+        color: #393e46;
+        width: 140px;
+}
+.flexbox {
+        color: #393e46;
+        width: 130px;
+}
+.hosting {
         color: #393e46;
         width: 80px;
 }
+
 
 .skill-icon i{
         margin-top: 60px;
