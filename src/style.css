@@ -21,6 +21,7 @@ h3{
         color: #393e46;
         font-size: 18px;
         padding-top: 10px;
+        padding-bottom: 20px;
        
 }
 p{
@@ -145,28 +146,36 @@ background-color: #dbd8e3;
 
 .vscode{
         color:#393e46;
+        
         width: 80px;
+      filter: invert(20%) sepia(7%) saturate(1010%) hue-rotate(178deg) brightness(60%) contrast(85%);
 }
 
 .api{
 color: #393e46;
         width: 90px;
+        filter: invert(20%) sepia(7%) saturate(1010%) hue-rotate(178deg) brightness(20%) contrast(85%);
 }
 .responsive {
         color: #393e46;
-        width: 95px;
+        width: 135px;
+        filter: invert(20%) sepia(7%) saturate(1010%) hue-rotate(178deg) brightness(97%) contrast(85%);
 }
 .seo{
         color: #393e46;
         width: 140px;
+        filter: invert(20%) sepia(7%) saturate(1010%) hue-rotate(178deg) brightness(97%) contrast(85%);
 }
 .flexbox {
         color: #393e46;
-        width: 130px;
+        width: 70px;
+        filter: invert(20%) sepia(7%) saturate(1010%) hue-rotate(178deg) brightness(40%) contrast(85%);
+       
 }
 .hosting {
         color: #393e46;
         width: 80px;
+        filter: invert(20%) sepia(7%) saturate(1010%) hue-rotate(178deg) brightness(40%) contrast(85%);
 }
 
 
