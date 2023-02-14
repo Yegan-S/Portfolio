@@ -187,3 +187,13 @@ filter: invert(22%) sepia(7%) saturate(996%) hue-rotate(178deg) brightness(90%) 
         font-size: 18px;
         color: #393e46;
 }
+.my-certificate{
+        display: flex;
+        justify-content: center;
+        margin: 30px 0;
+
+}
+.my-certificate img{
+        width: 400px;
+        margin: 20px;
+}
