@@ -203,3 +203,14 @@ filter: invert(22%) sepia(7%) saturate(996%) hue-rotate(178deg) brightness(90%) 
 
         }
 }
+
+.my-projects{
+        display: flex;
+        background-color: #393e46;
+        justify-content: center;
+        margin: 20px 0;
+}
+.my-projects img{
+margin: 10px;
+width: 400px;
+}
