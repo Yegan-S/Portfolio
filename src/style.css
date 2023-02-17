@@ -214,3 +214,6 @@ filter: invert(22%) sepia(7%) saturate(996%) hue-rotate(178deg) brightness(90%) 
 margin: 10px;
 width: 400px;
 }
+.contact{
+        background-color: #9e7e44;
+}
