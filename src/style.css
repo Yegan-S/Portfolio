@@ -42,7 +42,8 @@ p{
 }
 .navbar{
         background-color: #222831;
-        color:#9e7e44 ;
+        color:#9e7e44;
+       
 }
 .navbar-nav{
 color: #9e7e44;
@@ -53,12 +54,14 @@ text-transform: capitalize;
 }
 
 .nav-link:hover{
-        color:#a2c11c ;
-        border-bottom: 1px solid #a2c11c ;
+        color:#a2c11c;
+        transition: all 100ms ease-in-out;
 }
 .navbar-toggler{
         color: #9e7e44;
+        border-color:#a2c11c ;
 }
+
 
 
 
@@ -185,7 +188,10 @@ filter: invert(22%) sepia(7%) saturate(996%) hue-rotate(178deg) brightness(90%) 
         font-size: 18px;
         color: #393e46;
 }
-
+.certificate-container{
+        margin-top: 20px;
+        margin-bottom: 35px;
+}
 .my-certificate{
         display: flex;
         justify-content: center;
@@ -196,19 +202,18 @@ filter: invert(22%) sepia(7%) saturate(996%) hue-rotate(178deg) brightness(90%) 
         width: 400px;
         margin: 10px;
 }
-@media (max-width: 700px) {
-
-        .my-certificate img{
-                margin: 10px 0;
-
-        }
+.certificate-container h3 {
+        text-align: center;
+        color: #9e7e44;
+        text-transform: capitalize;
+       margin-top: 30px;
 }
-
 .my-projects{
         display: flex;
         background-color: #393e46;
         justify-content: center;
-        margin: 20px 0;
+margin: 5rem 3rem 3rem;
+        padding: 2.5rem; 
 }
 .my-projects img{
 margin: 10px;
@@ -217,7 +222,7 @@ width: 400px;
 
 .contact{
         background-color:#dbd8e3;
-        margin: 5rem 7rem 3rem;
+        margin: 5rem 9rem 3rem;
                 padding: 2.5rem;
 
 
