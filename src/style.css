@@ -34,6 +34,7 @@ p{
         padding: 20px;
                 font-size: 18px;
                 text-align: center;
+                text-transform: capitalize;
 }
 
 .personal-img{
@@ -122,7 +123,8 @@ background-color: #dbd8e3;
         
 }
 .resume-link:hover{
-         color:#393e46;
+        background-color:#393e46;
+        color: #222831;
 }
 .skill{
         background-color: #393e46;
@@ -208,6 +210,9 @@ filter: invert(22%) sepia(7%) saturate(996%) hue-rotate(178deg) brightness(90%) 
         width: 400px;
         margin: 10px;
 }
+.my-certificate:hover{
+        transition: all 150ms ease-in-out;
+}
 
 .projects-container h3 {
         text-align: center;
@@ -219,9 +224,13 @@ filter: invert(22%) sepia(7%) saturate(996%) hue-rotate(178deg) brightness(90%) 
         justify-content: center;
         margin: 20px 0;
 }
+
 .my-projects img{
 margin: 10px;
 width: 400px;
+}
+.my-projects p{
+        color: #9e7e44;
 }
 
 .contact{
@@ -276,6 +285,10 @@ footer .social-icon:hover{
         color:#dbd8e3 ;
         transition: all 0.5s ease-out;
 }
+
+
+
+
 @media (max-width: 700px) {
         .my-certificate img {
                 display:flex;
