@@ -190,7 +190,13 @@ filter: invert(22%) sepia(7%) saturate(996%) hue-rotate(178deg) brightness(90%) 
 }
 .certificate-container{
         margin-top: 20px;
-        margin-bottom: 35px;
+        margin-bottom: 65px;
+}
+.certificate-container h3 {
+        text-align: center;
+        color: #9e7e44;
+        text-transform: capitalize;
+        margin-top: 30px;
 }
 .my-certificate{
         display: flex;
@@ -202,18 +208,16 @@ filter: invert(22%) sepia(7%) saturate(996%) hue-rotate(178deg) brightness(90%) 
         width: 400px;
         margin: 10px;
 }
-.certificate-container h3 {
+
+.projects-container h3 {
         text-align: center;
         color: #9e7e44;
         text-transform: capitalize;
-       margin-top: 30px;
 }
 .my-projects{
         display: flex;
-        background-color: #393e46;
         justify-content: center;
-margin: 5rem 3rem 3rem;
-        padding: 2.5rem; 
+        margin: 20px 0;
 }
 .my-projects img{
 margin: 10px;
@@ -271,4 +275,10 @@ color: #393e46;
 footer .social-icon:hover{
         color:#dbd8e3 ;
         transition: all 0.5s ease-out;
+}
+@media (max-width: 700px) {
+        .my-certificate img {
+                display:flex;
+               justify-content: center;
+        }
 }
