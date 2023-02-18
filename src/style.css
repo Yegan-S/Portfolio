@@ -126,11 +126,16 @@ background-color: #dbd8e3;
         background-color:#393e46;
         color: #222831;
 }
-.skill{
+.skill-container{
         background-color: #393e46;
+        margin: 3rem 3rem 1rem;
+                padding: 2.5rem;
 }
 .skill-title{
         color: #9e7e44;
+        margin-top: 20px;
+        padding-bottom: 5px;
+        text-transform: capitalize;
 }
 .skill-item{
         border: none;
@@ -145,39 +150,6 @@ background-color: #dbd8e3;
         border-radius: 10px;
         margin-top: 20px;
 }
-
-
-.vscode{
-        width: 100px;
-filter: invert(22%) sepia(7%) saturate(996%) hue-rotate(178deg) brightness(90%) contrast(87%);
-}
-
-.api{
-        width: 90px;
-        filter: invert(22%) sepia(7%) saturate(996%) hue-rotate(178deg) brightness(90%) contrast(87%);
-}
-.responsive {
-      
-        width: 135px;
-        filter: invert(22%) sepia(7%) saturate(996%) hue-rotate(178deg) brightness(90%) contrast(87%);
-}
-.seo{
-        
-        width: 140px;
-filter: invert(22%) sepia(7%) saturate(996%) hue-rotate(178deg) brightness(90%) contrast(87%);
-}
-.flexbox {
-        
-        width: 70px;
-        filter: invert(22%) sepia(7%) saturate(996%) hue-rotate(178deg) brightness(90%) contrast(87%);
-       
-}
-.hosting {
-        
-        width: 80px;
-filter: invert(22%) sepia(7%) saturate(996%) hue-rotate(178deg) brightness(90%) contrast(87%);
-}
-
 
 .skill-icon i{
         margin-top: 60px;
@@ -198,7 +170,7 @@ filter: invert(22%) sepia(7%) saturate(996%) hue-rotate(178deg) brightness(90%) 
         text-align: center;
         color: #9e7e44;
         text-transform: capitalize;
-        margin-top: 30px;
+        margin-top: 40px;
 }
 .my-certificate{
         display: flex;
@@ -218,6 +190,8 @@ filter: invert(22%) sepia(7%) saturate(996%) hue-rotate(178deg) brightness(90%) 
         text-align: center;
         color: #9e7e44;
         text-transform: capitalize;
+        
+       
 }
 .my-projects{
         display: flex;
