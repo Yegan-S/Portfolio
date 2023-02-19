@@ -10,6 +10,7 @@ h1{
             font-weight: bold;
             padding-top: 20px;
         font-size:50px ;
+        line-height: 80px;
 }
 h2{
         color: #2c2c2a;
@@ -64,14 +65,33 @@ text-transform: capitalize;
 }
 
 
-
-
-.homepage{
+.homepage-container {
         background: #393e46;
-        margin-top: 20px;
-        
+        margin: 5rem 2rem 3rem;
+        padding: 2.5rem;
 }
 
+
+.homepage-content{
+        margin: auto 1rem;
+                padding: 2rem;
+                max-width: 550px;
+}
+.homepage-content h1{
+        font-size: 44px;
+        line-height: 50px;
+        padding: 5px;
+}
+.homepage-content h2{
+        font-size:20px ;
+        padding: 5px;
+        
+}
+.homepage-content p{
+font-size: 18px;
+        line-height: 1.5;
+        padding: 5px;
+}
 
 .about-container{
         margin: 5rem 6rem 3rem;
@@ -295,36 +315,37 @@ footer .social-icon:hover{
 }
 
 
-
-
-@media (max-width: 700px) {
-
-        .homepage img {
-                width: 200px;
-                border-radius: 50%;
-                margin-top: 30px;
-                margin-bottom: 20px;
-
-        }
-
-        .homepage p {
-                margin-top: 20px;
-        }
-
+@media (max-width: 990px) {
+.homepage-content{
+        text-align: center;
+        padding: 0;
+        
+        text-align: center;
+         margin: auto;
 }
-
-@media (min-width: 1000px) {
-        .homepage p {
-
-                padding: 60px 20px;
-
-        }
 }
 
 
 @media (max-width: 700px) {
+.homepage-content {
+                text-align: center;
+                padding: 0;
+                margin: 10px;
+        }
+
         .my-certificate img {
                 display:flex;
-               justify-content: center;
+                justify-content: center;
+        }
+}
+
+@media (max-width: 500px) {
+        .homepage-content {
+                text-align: center;
+                padding: 0;
+                margin: 10px;
+        }
+        .homepage-content h1{
+                font-size: 24px;
         }
 }
