@@ -1,9 +1,18 @@
+:root{
+        --main-bg:#222831;
+        --secondary-color:#393e46;
+        --high-color:#a2c11c;
+        --primary-color:#dbd8e3;
+        --advanced-color:#9e7e44;
+        --low-color:#2c2c2a;
+}
+
 body{
-        background:#222831 ;
+        background:var(--main-bg);
 }
 
 h1{
-    color: #9e7e44;
+    color: var(--advanced-color);
     text-transform: capitalize;
     font-family: 'Playfair Display',
             serif;
@@ -13,13 +22,13 @@ h1{
         line-height: 80px;
 }
 h2{
-        color: #2c2c2a;
+        color: var(--low-color);
         padding-top: 10px;
         margin-top: 10px;
         font-size:24px ;
 }
 h3{
-        color: #393e46;
+        color: var(--secondary-color);
         font-size: 18px;
         padding-top: 10px;
         padding-bottom: 20px;
@@ -29,7 +38,7 @@ p{
         font-family: 'Poppins',
         sans-serif;
         font-weight: normal;
-        color: #a2c11c;
+        color: var(--high-color);
         margin-top: 30px;
         line-height: 1.5;   
         padding: 20px;
@@ -44,29 +53,29 @@ p{
 }
 .navbar{
         background-color: #222831;
-        color:#9e7e44;
+        color:var(--advanced-color);
        
 }
 .navbar-nav{
-color: #9e7e44;
+color: var(--advanced-color);
 }
 .nav-link{
-color: #9e7e44;
+color: var(--advanced-color);
 text-transform: capitalize;
 }
 
 .nav-link:hover{
-        color:#a2c11c;
+        color:var(--high-color);
         transition: all 100ms ease-in-out;
 }
 .navbar-toggler{
-        color: #9e7e44;
-        border-color:#a2c11c ;
+        color: var(--advanced-color);
+        border-color:var(--high-color) ;
 }
 
 
 .homepage-container {
-        background: #393e46;
+        background:var(--secondary-color);
         margin: 5rem 2rem 3rem;
         padding: 2.5rem;
 }
@@ -99,7 +108,7 @@ font-size: 18px;
 }
 .about-container h3 {
         text-align: center;
-        color: #9e7e44;
+        color: var(--advanced-color);
         text-transform: capitalize;
 }
 .about{
@@ -110,9 +119,9 @@ font-size: 18px;
 
 
 .about p{
-        color: #9e7e44;
+        color:var(--advanced-color);
         margin: 10px;
-background-color: #dbd8e3;
+background-color: var(--primary-color);
         }
 
 .my-resume{
@@ -121,8 +130,8 @@ background-color: #dbd8e3;
                 padding: 15px;
         }
 .resume-link {
-        background:#dbd8e3;
-        color: #9e7e44;
+        background:var(--primary-color);
+        color: var(--advanced-color);
         text-decoration: none;
         padding: 15px 20px;
         border-radius: 4px;
@@ -132,8 +141,8 @@ background-color: #dbd8e3;
         
 }
 .resume-link:hover{
-        background-color:#393e46;
-        color: #222831;
+        background-color:var(--secondary-color);
+        color:var(--main-bg);
 }
 
 
@@ -142,12 +151,12 @@ background-color: #dbd8e3;
 
 
 .skill-container{
-        background-color: #393e46;
+        background-color:var(--secondary-color) ;
         margin: 3rem 3rem 1rem;
                 padding: 2.5rem;
 }
 .skill-title{
-        color: #9e7e44;
+        color: var(--advanced-color);
         margin-top: 20px;
         padding-bottom: 5px;
         text-transform: capitalize;
@@ -161,21 +170,21 @@ background-color: #dbd8e3;
         flex-direction: column;
         justify-content: center;
         align-items:center;
-        background-color: #9e7e44;
+        background-color: var(--advanced-color);
         border-radius: 10px;
         margin-top: 20px;
 }
 
 .skill-icon i{
         margin-top: 60px;
-        color:#393e46 ;
+        color:var(--secondary-color);
         font-size: 80px;
 }
 .skill-icon p{
         margin-top: 8px;
         margin-bottom: 40px;
         font-size: 18px;
-        color: #393e46;
+        color: var(--secondary-color);
 }
 
 
@@ -186,7 +195,7 @@ background-color: #dbd8e3;
 }
 .certificate-container h3 {
         text-align: center;
-        color: #9e7e44;
+        color:var(--advanced-color);
         text-transform: capitalize;
         margin-top: 40px;
 }
@@ -208,7 +217,7 @@ background-color: #dbd8e3;
 
 .projects-container h3 {
         text-align: center;
-        color: #9e7e44;
+        color: var(--advanced-color);
         text-transform: capitalize;
         
        
@@ -224,13 +233,13 @@ margin: 10px;
 width: 400px;
 }
 .my-projects p{
-        color: #9e7e44;
+        color: var(--advanced-color);
 }
 
 
 
 .contact-container{
-        background-color:#dbd8e3;
+        background-color:var(--primary-color);
         margin: 5rem 3rem;
                 padding: 2rem;
 
@@ -242,7 +251,7 @@ width: 400px;
 }
 .contact-container a{
         text-decoration: none;
-        color: #393e46;
+        color: var(--secondary-color);
 }
 .contact-container a:hover{
         text-decoration:underline;
@@ -264,11 +273,11 @@ form {
         display: block;
         margin: 0 auto;
         padding: 10px 15px;
-        border:#dbd8e3;
+        border:var(--primary-color);
         color:#212529 ;    
 }
 .contact-form button:hover{
-        background-color: #393e46;
+        background-color: var(--secondary-color);
         transition: all 0.5s ease-out;
 }
 
@@ -278,10 +287,10 @@ footer .social-media{
 footer  .social-icon{
 margin: 10px;
 font-size: 30px;
-color: #393e46;
+color: var(--secondary-color);
 }
 footer .social-icon:hover{
-        color:#dbd8e3 ;
+        color:var(--primary-color);
         transition: all 0.5s ease-out;
 }
 
