@@ -180,11 +180,6 @@ background-color: #dbd8e3;
 
 
 
-
-
-
-
-
 .certificate-container{
         margin-top: 20px;
         margin-bottom: 65px;
@@ -211,15 +206,6 @@ background-color: #dbd8e3;
 
 
 
-
-
-
-
-
-
-
-
-
 .projects-container h3 {
         text-align: center;
         color: #9e7e44;
@@ -243,41 +229,26 @@ width: 400px;
 
 
 
-
-
-
-
-
-
-.contact{
+.contact-container{
         background-color:#dbd8e3;
-        margin: 5rem 9rem 3rem;
-                padding: 2.5rem;
+        margin: 5rem 3rem;
+                padding: 2rem;
 
 
 }
-.contact h3{
+.contact-container h3{
         font-size: 24px;
         text-transform: capitalize
 }
-.connection a{
+.contact-container a{
         text-decoration: none;
         color: #393e46;
 }
-.connection a:hover{
+.contact-container a:hover{
         text-decoration:underline;
         color: #212529;
         font-weight: bold;
 }
-
-
-
-
-
-
-
-
-
 
 
 
@@ -323,6 +294,19 @@ footer .social-icon:hover{
         text-align: center;
          margin: auto;
 }
+ .my-certificate img {
+         display: flex;
+         justify-content: center;
+         margin:10px auto;
+         max-width:350px ;
+ }
+ .my-projects img {
+         display: flex;
+         justify-content: center;
+         margin: 10px auto;
+         max-width: 350px;
+ }
+
 }
 
 
@@ -335,8 +319,16 @@ footer .social-icon:hover{
 
         .my-certificate img {
                 display:flex;
+                justify-content:center;
+                        margin: 10px auto;
+                        max-width: 350px;
+}
+.my-projects img {
+        display: flex;
                 justify-content: center;
-        }
+                margin: 10px auto;
+                max-width: 350px;
+}
 }
 
 @media (max-width: 500px) {
@@ -344,8 +336,23 @@ footer .social-icon:hover{
                 text-align: center;
                 padding: 0;
                 margin: 10px;
+               
         }
         .homepage-content h1{
                 font-size: 24px;
         }
+                     .my-certificate img {
+                             display: flex;
+           justify-content:center;
+                   margin: 10px auto;
+                max-width: 350px;
+                     }
+.my-projects img {
+ display: flex;
+ justify-content:center;
+   margin: 10px auto;
+max-width: 350px;
+  }
+
+ 
 }
