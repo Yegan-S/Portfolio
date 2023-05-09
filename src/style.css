@@ -12,12 +12,12 @@ body{
 }
 
 h1{
-    color: var(--advanced-color);
-    text-transform: capitalize;
-    font-family: 'Playfair Display',
+        color: var(--advanced-color);
+        text-transform: capitalize;
+        font-family: 'Playfair Display',
             serif;
-            font-weight: bold;
-            padding-top: 20px;
+        font-weight: bold;
+        padding-top: 20px;
         font-size:50px ;
         line-height: 80px;
 }
@@ -26,10 +26,11 @@ h2{
         padding-top: 10px;
         margin-top: 10px;
         font-size:24px ;
+        text-transform: capitalize;
 }
 h3{
         color: var(--secondary-color);
-        font-size: 18px;
+        font-size: 24px;
         padding-top: 10px;
         padding-bottom: 20px;
        
@@ -42,26 +43,25 @@ p{
         margin-top: 30px;
         line-height: 1.5;   
         padding: 20px;
-                font-size: 18px;
-                text-align: center;
-                text-transform: capitalize;
+        font-size: 18px;
+        text-align: center;
+                
 }
 
 .personal-img{
-        max-width: 30px;
+        max-width: 50px;
         border-radius: 50%;
 }
 .navbar{
         background-color: #222831;
         color:var(--advanced-color);
-       
 }
 .navbar-nav{
-color: var(--advanced-color);
+       color: var(--advanced-color);
 }
 .nav-link{
-color: var(--advanced-color);
-text-transform: capitalize;
+       color: var(--advanced-color);
+       text-transform: capitalize;
 }
 
 .nav-link:hover{
@@ -80,11 +80,13 @@ text-transform: capitalize;
         padding: 2.5rem;
 }
 
-
+.homepage-container img {
+        border-radius: 2%;
+}
 .homepage-content{
         margin: auto 1rem;
-                padding: 2rem;
-                max-width: 550px;
+        padding: 2rem;
+        max-width: 550px;
 }
 .homepage-content h1{
         font-size: 44px;
@@ -97,14 +99,14 @@ text-transform: capitalize;
         
 }
 .homepage-content p{
-font-size: 18px;
+        font-size: 18px;
         line-height: 1.5;
         padding: 5px;
 }
 
 .about-container{
         margin: 5rem 6rem 3rem;
-                padding: 2.5rem;
+        padding: 2.5rem;
 }
 .about-container h3 {
         text-align: center;
@@ -121,14 +123,15 @@ font-size: 18px;
 .about p{
         color:var(--advanced-color);
         margin: 10px;
-background-color: var(--primary-color);
+        background-color: var(--primary-color);
         }
 
-.my-resume{
-                display: flex;
-                justify-content: center;
-                padding: 15px;
+.my-resume{      
+        display: flex;
+        justify-content: center;
+        padding: 15px;
         }
+        
 .resume-link {
         background:var(--primary-color);
         color: var(--advanced-color);
@@ -190,53 +193,93 @@ background-color: var(--primary-color);
 
 
 .certificate-container{
-        margin-top: 20px;
-        margin-bottom: 65px;
-        padding: 0 15px;
+        background-color: var(--primary-color);
+                margin: 3rem 3rem 1rem;
+                padding: 2.5rem;
+        
        
 }
-.certificate-container h3 {
+.my-certificate h3 {
         text-align: center;
         color:var(--advanced-color);
         text-transform: capitalize;
-        margin-top: 40px;
-}
-.my-certificate{
-        display: flex;
-        justify-content: center;
-        margin: 20px 0;
-
-}
-.my-certificate img{
-        width: 400px;
-        margin: 10px;
-}
-.my-certificate:hover{
-        transition: all 150ms ease-in-out;
+        margin-top: 20px;
+        padding-bottom: 5px;
 }
 
-.projects-container{
+.certificate-pic {
+        position: relative;
+        
+}
+
+.certificate-container img{
+border-radius: 10px;
+       margin: 10px auto;  
+        width: 100%;
+        height: auto;
+        opacity: 1;
+        display: block;
+        transition: 0.5s ease;
+        
+
+}
+.certificate-img:hover img{
+        opacity: 0.2;
+}
+.certificate-img:hover .middle-button{
+opacity: 1;
+}
+
+.middle-button{
+        transition: 0.5s ease;
+        opacity: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        text-align: center;
+       
+}
+
+.view-certificate{
+        background-color: var(--secondary-color);
+         color: var(--high-color);
+        padding: 8px 16px;
+        display: block;
+        text-decoration: none;
+        border-radius: 50px;
+        font-size: 1rem;
+        font-weight: 600;
+        text-transform: capitalize;
+}
+.view-certificate:hover {
+        text-decoration: none;
+        color: var(--high-color);
+        transform: scale(1.05);
+}
+
+
+.my-projects{
         padding: 0 15px;
+        margin: 30px;
+
 }
 
-.projects-container h3 {
+.my-projects h3 {
         text-align: center;
         color: var(--advanced-color);
         text-transform: capitalize;
         
        
 }
-.my-projects{
-        display: flex;
-        justify-content: center;
-        margin: 20px 0;
-}
 
-.my-projects img{
+
+.projects-container img{
 margin: 10px;
-width: 400px;
+border-radius: 10px;
 }
-.my-projects p{
+.projects-container p{
         color: var(--advanced-color);
 }
 

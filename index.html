@@ -20,7 +20,8 @@
 <body>
 
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg bg">
+    
+    <nav class="navbar navbar-expand-lg bg fixed-top">
         <div class="container-fluid">
             <a class="navbar-brand" href="#homepage">
                 <img src="images/me.jpg" alt="me" class="personal-img">
@@ -47,14 +48,13 @@
         <!-- Home page -->
 
 
-        <div class="homepage-container  d-lg-flex flex-row justify-content-between" id="homepage">
+        <div class="homepage-container d-lg-flex flex-row justify-content-between" id="homepage">
             
                     <div class="homepage-content">
                     <h1 class="mb-4">Yegan(Sedi) Salehi</h1>
                     <h2 class="mb-4"> a front-end developer, based in iran</h2>
                     <p class="mb-4">
-                        I am graduated in master of applied physics, after a couple of years of
-                        teaching, I decieded to change my field to what I have been longing for, YES!! Programming and Technology.
+                        I am graduated in master of applied physics. As a physics student, I've learnt some programming languages like C++, Fortran, Python during my study. I had no idea how intersting HTML, JAVA SCRIPT are, till heard about SheCodes foundation, and applyed for its workshops, they made me become interested in coding so after that, I decieded to change my field to what I have been longing for, YES!! Programming and Technology.
                         <br />
                         And I am so enthusiastic to work in this field,and make and participate in
                         advanced projects.
@@ -62,8 +62,7 @@
                     </div>
                
                 <div>
-                    <img src="images/my-photo.jpg" alt="my-photo" class="img-fluid
-                    " />
+                    <img src="images/my-photo.jpg" alt="my-photo" class="img-fluid" />
             </div>
 
             </div>
@@ -129,8 +128,8 @@
                     <i class="fa-brands fa-github"></i>
                     <p class="skill-name">Github</p>
                 </div>
-
             </div>
+
             </div>
     </div>
 
@@ -140,44 +139,85 @@
 
 <!-- certificate-->
 
-<div class="certificate-container" id="certificate">
-    <h3>my certificates</h3>
-    <div class="my-certificate">
-    
-<div class="row">
-    <div class="col-md-6 col-sm-12">
 
-   
-    <a href="https://www.shecodes.io/certificates/476e0ac311832df770a3994664ba5a1a" target="_blank">
-        <img src="images/plus.png" class="img-fluid"  alt="plus-certificate">
-    </a>
+    
+    <div class="my-certificate">
+        <h3 class="text-center">my certificates</h3>
+    <div class="certificate-container " id="certificate">
+
+<div class="row">
+
+    <div class="certificate-img col-md-6 col-sm-12">
+    <div class="certificate-pic">
+        <img src="images/plus.png" class="img-fluid"  alt="plus-certificate" />
+    <div class="middle-button">
+    <a href="https://www.shecodes.io/certificates/476e0ac311832df770a3994664ba5a1a" class="view-certificate" target="_blank">  view certificate</a>
+    </div>
 </div>
-<div class="col-md-6 col-sm-12">
-    <a href="https://www.shecodes.io/certificates/7eef33ea02391a5a63251f956e1323f5" target="_blank">
-<img src="images/basic.png" class="img-fluid" alt="basic-certificate">
-</a>
+</div>
+
+<div class="certificate-img col-md-6 col-sm-12">
+    <div class="certificate-pic">
+<img src="images/basic.png" class="img-fluid" alt="basic-certificate" />
+<div class="middle-button">
+<a href="https://www.shecodes.io/certificates/7eef33ea02391a5a63251f956e1323f5" class="view-certificate" target="_blank"> view certificate </a>
 </div>
 </div>
+</div>
+
+</div>
+
+      <div class="row">
+
+    <div class="certificate-img col-md-6 col-sm-12">
+        <div class="certificate-pic"> 
+            <img src="images/Responsive.png" class="img-fluid" alt="responsivness-certificate" />
+        <div class="middle-button">
+            <a href="https://www.shecodes.io/certificates/fde829f512065589da31a9da2838c55e" class="view-certificate" target="_blank"> view certificate </a>
+    </div>
+</div>
+</div>
+
+
+    <div class="certificate-img col-md-6 col-sm-12">
+        <div class="certificate-pic">
+            <img src="images/React.png" class="img-fluid" alt="react-certificate" />
+        <div class="middle-button">
+            <a href="https://www.shecodes.io/certificates/f5404f023c6dee07d3cbcd88b1fb44b3" class="view-certificate" target="_blank"> view certificate</a>
+        </a>
+    </div>
+    </div>
+    </div>
+
+</div>
+
+
+
 </div>
 </div>
 <!--End of certificate -->
 
 
 <!--projects-->
-<div class="projects-container" id="projects">
+
+<div class="my-projects"> 
+
     <h3 class="text-center mb-4">take a look at what I've been working on
 
     </h3>
-        <div class="my-projects">
+        <div class="projects-container" id="projects">
+
             <div class="row">
+            
             <div class="col-md-6 col-sm-12">
                 <a href="https://helpful-seahorse-ac2f0a.netlify.app/" target="_blank">
-                    <img src="images/vanila-weather.png" class="img-fluid" alt="vanilla-weather-app">
+                    <img src="images/reactapp.png" class="img-fluid" alt="reactapp">
                 </a>
-                <h3 class="text-center mb-1 mt-2 pb-2">weather app</h3>
-                <p class="project-description mt-1 pt-1 text-center text-transform-capitalize">the project was built by html, css, js</p>
+                <h3 class="text-center mb-1 mt-2 pb-2">react weather app</h3>
+                <p class="project-description mt-1 pt-1 text-center text-transform-capitalize">the project was built by react</p>
             </div>
-            
+
+
             <div class=" col-md-6 col-sm-12">
                 <a href="https://lovely-cocada-d050f9.netlify.app/"  target="_blank" >
                     <img src="images/weather.png" class="img-fluid" alt="weather-app">
@@ -186,7 +226,22 @@
                 <p class="project-description mt-1 pt-1 text-center text-transform-capitalize">the project was built by html, css, js
                 </p>
                 </div>
+
             </div>
+
+        <div class="row">
+
+<div class="col-md-6 col-sm-12">
+    <a href="https://helpful-seahorse-ac2f0a.netlify.app/" target="_blank">
+        <img src="images/vanila-weather.png" class="img-fluid" alt="vanilla-weather-app">
+    </a>
+    <h3 class="text-center mb-1 mt-2 pb-2">weather app</h3>
+    <p class="project-description mt-1 pt-1 text-center text-transform-capitalize">the project was built by html, css,
+        js</p>
+</div>
+
+        </div>
+
         </div>
         </div>
 
