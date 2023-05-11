@@ -75,8 +75,8 @@ p{
 
 
 .homepage-container {
-        background:var(--secondary-color);
-        margin: 5rem 2rem 3rem;
+       
+        margin: 2rem 2rem 3rem;
         padding: 2.5rem;
 }
 
@@ -340,7 +340,14 @@ footer .social-icon:hover{
         color:var(--primary-color);
         transition: all 0.5s ease-out;
 }
-
+@media (min-width:992px){
+       
+        .my-photo  img{
+         max-width: 400px;
+         margin-top: 5rem;
+         border-radius: 2%;
+                }
+}
 
 @media (max-width: 991px) {
         .row {
@@ -352,6 +359,11 @@ footer .social-icon:hover{
         
         text-align: center;
          margin: auto;
+}
+.my-photo{
+        max-width: 300px;
+        padding: 10px;
+        margin: 0 auto;
 }
 .certificate-container{
 padding:0 15px;
