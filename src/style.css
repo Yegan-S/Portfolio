@@ -30,7 +30,7 @@ h2{
 }
 h3{
         color: var(--secondary-color);
-        font-size: 24px;
+        font-size: 20px;
         padding-top: 10px;
         padding-bottom: 20px;
        
@@ -365,60 +365,68 @@ footer .social-icon:hover{
 .homepage-content{
         text-align: center;
         padding: 0;
-        text-align: center;
-         margin: auto;
+         margin:0 auto;
 }
 .my-photo {
         max-width: 300px;
         padding: 10px;
         margin: 0 auto;
 }
-
-.certificate-container{
-padding:0 15px;
+.skill{
+padding: 0 15px;
 }
+.my-certificate{
+padding: 0 15px;
+}
+
  .my-certificate img {
          display: flex;
          justify-content: center;
          margin:10px auto;
-         max-width:350px ;
+         max-width:100% ;
  }
- .projects-container{
-        padding:0 15px;
+ .my-projects{
+padding: 0 15px;
  }
- .my-projects img {
+ .projects-container img {
          display: flex;
          justify-content: center;
-         margin: 10px auto;
-         max-width: 350px;
+         margin-right: 10px;
+         margin-left: 10px;
+        width: 100%;
  }
+ 
 
 }
 
 
 @media (max-width: 770px) {
         .row {
-                        margin: 0;
+         margin: 0;
                 }
 .homepage-content {
                 text-align: center;
                 padding: 0;
                 margin: 10px;
-        }
-        
-         .certificate-container {
-                        padding: 0 15px;
+}
+        .skill {
+        padding: 0 15px;
                 }
+        
+                .my-certificate {
+                padding: 0 15px;
+                 }
 
         .my-certificate img {
                 display:flex;
                 justify-content:center;
-                        margin: 10px auto;
-                        max-width: 350px;
+                margin: 10px auto;
+                 max-width:100%
 }
-.projects-container {
+.my-projects {
         padding: 0 15px;
 }
+
 .my-projects img {
         display: flex;
                 justify-content: center;
@@ -439,26 +447,29 @@ padding:0 15px;
                 margin: 10px;
         }
 
-                .certificate-container {
-                padding: 15px;
-        }
+   .skill {
+           padding: 0 15px;
+   }
 
+   .my-certificate {
+           padding: 0 15px;
+   }
         .my-certificate img {
                 display: flex;
                justify-content: center;
                 margin: 10px auto;
-                max-width: 350px;
+                max-width: 100%;
         }
 
-        .projects-container {
-                padding: 0 15px;
-        }
+                .my-projects {
+                        padding: 0 15px;
+                }
 
         .my-projects img {
                 display: flex;
                 justify-content: center;
                 margin: 10px auto;
-                max-width: 350px;
+                max-width: 100%;
         }
         .contact-container{
                 padding: 0 15px;
@@ -474,37 +485,90 @@ padding:0 15px;
 
 @media (max-width: 576px) {
         .row {
-                        margin: 0;
+        margin: 0;
                 }
         .homepage-content {
-                text-align: center;
-         
-                padding: 0;
-                margin: 10px;
+        text-align: center;
+        padding: 0;
+        margin: 10px;
                
         }
         .homepage-content h1{
                 font-size: 24px;
         }
+        .skill {
+        padding: 0 15px;
+        }
         
-                .certificate-container {
-                        padding: 0 15px;
-                }
-                     .my-certificate img {
-                             display: flex;
-           justify-content:center;
-                   margin: 10px auto;
-                max-width: 350px;
+        .my-certificate {
+         padding: 0 15px;
+        }
+
+        .my-certificate img {
+        display: flex;
+        justify-content:center;
+        margin: 10px auto;
+        max-width: 100%;
                      }
-                                     .projects-container {
-                                             padding: 0 15px;
-                                     }
+        .my-projects {
+         padding: 0 15px;
+          }
+                     
 .my-projects img {
  display: flex;
  justify-content:center;
    margin: 10px auto;
-max-width: 350px;
+max-width: 100%;
   }
 
  
+}
+@media (max-width: 320px){
+.homepage-content h2{
+        font-size: 16px;
+}
+.skill-title {
+font-size: 16px;
+}
+.skill-item{
+        width: 100%;
+}
+.skill-icon i {
+        font-size: 2rem;
+}
+
+.skill-icon p {
+        font-size: 10px;   
+}
+.my-certificate h3{
+        font-size:18px;
+      
+}
+ .my-certificate img {
+         display: flex;
+         justify-content: center;
+         margin: 10px auto;
+         max-width: 100%;
+         width: 100%;
+         
+ }
+ .my-projects h3{
+        font-size: 16px;
+ }
+ .my-contact h3{
+        font-size: 15px;
+        font-weight: bold;
+ }
+ .connection a{
+        font-size: 10px;
+ }
+ #input-name{
+        font-size: 10px;
+ }
+ #input-email{
+font-size: 10px;
+ }
+ #input-subject{
+font-size: 10px;
+ }
 }
