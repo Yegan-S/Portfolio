@@ -249,7 +249,7 @@ opacity: 1;
 
 .view-certificate{
         background-color: var(--secondary-color);
-         color: var(--high-color);
+        color: var(--high-color);
         padding: 8px 16px;
         display: block;
         text-decoration: none;
@@ -293,7 +293,7 @@ border-radius: 10px;
 .contact-container{
         background-color:var(--primary-color);
         margin: 5rem 3rem;
-                padding: 2rem;
+        padding: 2rem;
 
 
 }
@@ -356,6 +356,7 @@ footer .social-icon:hover{
          margin-top: 5rem;
          border-radius: 2%;
                 }
+
 }
 
 @media (max-width: 991px) {
@@ -454,6 +455,7 @@ padding: 0 15px;
    .my-certificate {
            padding: 0 15px;
    }
+  
         .my-certificate img {
                 display: flex;
                justify-content: center;
@@ -503,6 +505,12 @@ padding: 0 15px;
         .my-certificate {
          padding: 0 15px;
         }
+        .view-certificate {
+                        padding: 6px 8px;
+                        font-size: 8px;
+                        font-weight: 400;
+        
+                }
 
         .my-certificate img {
         display: flex;
@@ -527,18 +535,19 @@ max-width: 100%;
 .homepage-content h2{
         font-size: 16px;
 }
+.skill-container {
+        margin: 2rem 1rem;
+        padding: 2.5rem;
+}
 .skill-title {
-font-size: 16px;
-}
-.skill-item{
-        width: 100%;
-}
-.skill-icon i {
-        font-size: 2rem;
+font-size: 14px;
+font-weight: bold;
 }
 
-.skill-icon p {
-        font-size: 10px;   
+
+.certificate-container {
+        margin: 3rem 1rem;
+        padding: 2rem;
 }
 .my-certificate h3{
         font-size:18px;
@@ -552,6 +561,12 @@ font-size: 16px;
          width: 100%;
          
  }
+ .view-certificate {
+         padding: 6px 8px;
+         font-size: 8px;
+         font-weight: 400;
+        
+ }
  .my-projects h3{
         font-size: 16px;
  }
@@ -559,8 +574,13 @@ font-size: 16px;
         font-size: 15px;
         font-weight: bold;
  }
+ .contact-container {
+         margin: 3rem 1rem;
+         padding: 2rem;
+ }
  .connection a{
         font-size: 10px;
+        font-weight: bold;
  }
  #input-name{
         font-size: 10px;
@@ -570,5 +590,9 @@ font-size: 10px;
  }
  #input-subject{
 font-size: 10px;
+ }
+ #my-form-button{
+        font-size:12px ;
+        font-weight: bold;
  }
 }
