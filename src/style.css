@@ -167,6 +167,7 @@ p{
         font-weight: 900;
         margin-top: 5px;
         padding-bottom: 5px;
+        padding-top: 90px;
 }
 .skill-item{
         border: none;
@@ -215,6 +216,7 @@ p{
         margin-top: 20px;
         padding-bottom: 5px;
         font-weight: 900;
+        padding-top: 90px;
 }
 
 .certificate-pic {
@@ -273,6 +275,7 @@ opacity: 1;
 .my-projects{
         padding: 0 15px;
         margin: 30px;
+       
 
 }
 
@@ -280,7 +283,10 @@ opacity: 1;
         text-align: center;
         color: var(--advanced-color);
         text-transform: capitalize;
-        font-weight: 900;     
+        font-weight: 900; 
+        padding-top: 90px;
+        
+
 }
 .my-projects h4 {
         text-align: center;
@@ -298,11 +304,14 @@ border-radius: 10px;
 }
 
 
-
+.contact{
+        padding-top: 90px;
+}
 .contact-container{
         background-color:var(--primary-color);
         margin: 5rem 3rem;
         padding: 2rem;
+        
 
 
 }
