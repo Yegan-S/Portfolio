@@ -82,7 +82,6 @@ p{
 
 
 .homepage-container {
-       
         margin: 2rem 2rem 3rem;
         padding: 2.5rem;
 }
@@ -156,21 +155,18 @@ p{
         color:var(--main-bg);
 }
 
-
-
-
-
-
 .skill-container{
         background-color:var(--secondary-color) ;
         margin: 3rem 3rem 1rem;
                 padding: 2.5rem;
 }
-.skill h3{
+.skill-title{
         text-align: center;
         color: var(--advanced-color);
         text-transform: capitalize;
         font-weight: 900;
+        margin-top: 5px;
+        padding-bottom: 5px;
 }
 .skill-item{
         border: none;
@@ -178,6 +174,7 @@ p{
         margin-top: 20px;
         margin-bottom: 20px;
         box-sizing: border-box;
+        
 }
 .skill-icon{
         display: flex;
@@ -549,8 +546,12 @@ max-width: 100%;
 
 
 @media (max-width: 380px) {
+
         .skill h3{
                 font-size: 16px;
+                font-weight: 900;
+                margin-top: 5px;
+                 padding-bottom: 5px;
         }
 }
 
@@ -559,6 +560,9 @@ max-width: 100%;
         
 .homepage-content h2{
 font-size: 16px;
+}
+.homepage-content p{
+        font-size: 10px;
 }
 .about-container {
         margin: 3rem 1rem;
