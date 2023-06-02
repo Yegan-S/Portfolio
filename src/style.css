@@ -55,6 +55,9 @@ p{
 .navbar{
         background-color: #222831;
         color:var(--advanced-color);
+        padding: 1rem;
+        width: 100%;
+        z-index: 1030;
 }
 .navbar-nav{
        color: var(--advanced-color);
@@ -62,11 +65,15 @@ p{
 .nav-link{
        color: var(--advanced-color);
        text-transform: capitalize;
+        font-weight: 900;
+        margin: 0 0.4rem;
+        font-size: 1.1rem;
 }
 
 .nav-link:hover{
         color:var(--high-color);
         transition: all 100ms ease-in-out;
+        padding-bottom: 0.3rem;
 }
 .navbar-toggler{
         color: var(--advanced-color);
@@ -159,11 +166,11 @@ p{
         margin: 3rem 3rem 1rem;
                 padding: 2.5rem;
 }
-.skill-title{
+.skill h3{
+        text-align: center;
         color: var(--advanced-color);
-        margin-top: 20px;
-        padding-bottom: 5px;
         text-transform: capitalize;
+        font-weight: 900;
 }
 .skill-item{
         border: none;
@@ -210,6 +217,7 @@ p{
         text-transform: capitalize;
         margin-top: 20px;
         padding-bottom: 5px;
+        font-weight: 900;
 }
 
 .certificate-pic {
@@ -275,8 +283,12 @@ opacity: 1;
         text-align: center;
         color: var(--advanced-color);
         text-transform: capitalize;
-        
-       
+        font-weight: 900;     
+}
+.my-projects h4 {
+        text-align: center;
+        color: var(--advanced-color);
+        text-transform: capitalize;
 }
 
 
@@ -368,6 +380,9 @@ footer .social-icon:hover{
         padding: 0;
          margin:0 auto;
 }
+.homepage-content h1{
+        margin-top: 5px;
+}
 .my-photo {
         max-width: 300px;
         padding: 10px;
@@ -452,6 +467,9 @@ margin: 10px;
 .skill {
 padding: 0 15px;
    }
+   .skill h3{
+        margin-top: 10px;
+   }
 
 .my-certificate {
 padding: 0 15px;
@@ -501,8 +519,7 @@ font-size: 24px;
 }
 .skill {
  padding: 0 15px;
-}
-        
+}      
 .my-certificate {
 padding: 0 15px;
         }
@@ -531,6 +548,13 @@ max-width: 100%;
 }
 
 
+@media (max-width: 380px) {
+        .skill h3{
+                font-size: 16px;
+        }
+}
+
+
 @media (max-width: 320px){
         
 .homepage-content h2{
@@ -549,9 +573,9 @@ font-size: 16px;
         margin: 2rem 1rem;
         padding: 2.5rem;
 }
-.skill-title {
-font-size: 14px;
-font-weight: bold;
+.skill h3{
+font-size: 12px;
+
 }
 
 
