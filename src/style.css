@@ -275,8 +275,11 @@ opacity: 1;
 .my-projects{
         padding: 0 15px;
         margin: 30px;
-       
-
+}
+.project-technologies i {
+      
+        color: var(--secondary-color);
+        font-size: 2.5rem;
 }
 
 .my-projects h3 {
@@ -288,18 +291,34 @@ opacity: 1;
         
 
 }
-.my-projects h4 {
+.my-projects h5 {
         text-align: center;
-        color: var(--advanced-color);
+        color: var(--secondary-color);
         text-transform: capitalize;
+        font-weight: 700;
 }
 
 
 .projects-container img{
-margin: 10px;
+
 border-radius: 10px;
 }
 .projects-container p{
+        color: var(--advanced-color);
+}
+.launch-project {
+        background-color: var(--secondary-color);
+        color: var(--high-color);
+        padding: 12px 16px;
+        text-transform: capitalize;
+        font-size: 12px;
+        font-weight: 500;
+        transition: transform 0.6s ease-in;
+        text-decoration: none;
+}
+
+.launch-project:hover {
+        transform: scale(1.06);
         color: var(--advanced-color);
 }
 
@@ -413,12 +432,22 @@ padding: 0 15px;
  .projects-container img {
          display: flex;
          justify-content: center;
-         margin-right: 10px;
-         margin-left: 10px;
-        width: 100%;
- }
- 
 
+ }
+
+
+}
+
+@media (max-width: 820px) {
+
+ .my-projects h5 {
+        font-weight: 700;
+        font-size: 18px;
+                }
+ .my-projects .project-description{
+        font-size: 14px;
+        font-weight: 650;
+ }
 }
 
 
@@ -448,13 +477,11 @@ padding: 0 15px;
 .my-projects {
         padding: 0 15px;
 }
-
-.my-projects img {
-        display: flex;
-                justify-content: center;
-                margin: 10px auto;
-                max-width: 100%;
+.my-projects h5 {
+        font-weight: 700;
+        font-size: 18px;
 }
+
 }
 
 
@@ -495,8 +522,7 @@ padding: 0 15px;
 .my-projects img {
 display: flex;
 justify-content: center;
-margin: 10px auto;
-max-width: 100%;
+
 }
 
 .contact-container{
@@ -548,8 +574,6 @@ padding: 0 15px;
 .my-projects img {
 display: flex;
 justify-content:center;
-margin: 10px auto;
-max-width: 100%;
   }
 }
 
@@ -562,6 +586,9 @@ max-width: 100%;
                 margin-top: 5px;
                  padding-bottom: 5px;
         }
+                .project-technologies i {
+                        font-size: 1.5rem;
+                }
 }
 
 
@@ -602,11 +629,7 @@ font-size: 12px;
 }
  .my-certificate img {
         display: flex;
-        justify-content: center;
-        margin: 10px auto;
-        max-width: 100%;
-        width: 100%;
-         
+        justify-content: center;     
  }
  .view-certificate {
         padding: 6px 8px;
@@ -614,9 +637,22 @@ font-size: 12px;
         font-weight: 400;
         
  }
+ 
+ .my-projects {
+        padding: 0 15px;
+ }
+ .project-technologies i {
+         font-size: 1.2rem;
+ }
+ 
  .my-projects h3{
         font-size: 16px;
  }
+.launch-project {
+        padding: 12px 16px;
+        font-size: 8px;
+}
+
  .my-contact h3{
         font-size: 15px;
         font-weight: bold;
